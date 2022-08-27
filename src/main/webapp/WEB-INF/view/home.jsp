@@ -8,12 +8,21 @@
 <meta charset="ISO-8859-1">
 <title>Home Page</title>
 </head>
-<body>
-	Welcome To First Maven Web Project Using Spring...!
-	<br><br>
+<body bgcolor="blue">
+	<div align="right">
+	<!-- for logout -->
 	<form:form action="${pageContext.request.contextPath}/logout" method="POST">
 		<input type="submit" value="logout">
 	</form:form>
+	</div>
+	
+	<div>
+		<b><u>user details</u></b><br>
+		userid : <br> 
+		name :<br>
+		username :<br>
+		phone number :<br>			
+	</div>	
 	
 </body>
 </html>

@@ -23,7 +23,7 @@
 
 	<div>
 		
-		<div id="loginbox" style="margin-top: 50px;"
+		<div id="loginbox" style="margin-top: 60px;"
 			class="mainbox col-md-3 col-md-offset-2 col-sm-6 col-sm-offset-2">
 			
 			<div class="panel panel-info">
@@ -32,7 +32,7 @@
 					<div class="panel-title">Sign In</div>
 				</div>
 
-				<div style="padding-top: 30px" class="panel-body">
+				<div style="padding-top: 40px" class="panel-body">
 
 					<!-- Login Form -->
 					<form:form action="${pageContext.request.contextPath}/authenticateTheUser" 
@@ -76,21 +76,22 @@
 						</div>
 
 						<!-- Login/Submit Button -->
-						<div style="margin-top: 10px" class="form-group">						
+						<div style="margin-left: 70px" class="form-group">						
 							<div class="col-sm-6 controls">
 								<button type="submit" class="btn btn-success">Login</button>
 							</div>
 						</div>
-
 					</form:form>
-
+					want to create an account? <br>
+					if yes, <a href="${pageContext.request.contextPath}/signup"> click here</a>
+					
 				</div>
-
+				
 			</div>
 
 		</div>
-
+				
 	</div>
-
+	
 </body>
 </html>

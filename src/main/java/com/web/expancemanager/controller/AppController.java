@@ -15,5 +15,9 @@ public class AppController {
     public String customLoginPage() {
     	return "login";
     }
-
+    
+    @GetMapping("/signup")
+    public String signup() {
+    	return "SignupPage";
+    }
 }
